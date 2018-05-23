@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.intro">
+      <intro
+            class="com.suzlon.assessment.application.intro.IntroPart4"
+            id="com.suzlon.assessment.application.intro.introID">
+      </intro>
+      <introProductBinding
+            introId="com.suzlon.assessment.application.intro.introID"
+            productId="com.suzlon.assessment.application.product">
+      </introProductBinding>
+   </extension>
+
+</plugin>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:basic_1="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_8ZWHsFxeEeiFyJ7ZzlHW1A">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_9RTDYFxeEeiFyJ7ZzlHW1A" featurename="snippets" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="advanced:Perspective" xmi:id="_DLiNMFxfEeiFyJ7ZzlHW1A" elementId="com.suzlon.assessment.application.perspective">
+      <children xsi:type="basic:PartSashContainer" xmi:id="_M65fYFxoEeiFyJ7ZzlHW1A" elementId="com.suzlon.assessment.turbines.ui.partsashcontainer.id" selectedElement="_R2MUsFxoEeiFyJ7ZzlHW1A" horizontal="true">
+        <children xsi:type="basic:PartStack" xmi:id="_R2MUsFxoEeiFyJ7ZzlHW1A" elementId="com.suzlon.assessment.turbines.ui.partstack.left" selectedElement="_Tqe80FxoEeiFyJ7ZzlHW1A">
+          <children xsi:type="advanced:Placeholder" xmi:id="_Tqe80FxoEeiFyJ7ZzlHW1A" elementId="com.suzlon.assessment.turbines.ui.turbinesView"/>
+        </children>
+        <children xsi:type="advanced:Area" xmi:id="_T-THsFzLEeiUeYvtzg8o5Q" elementId="org.eclipse.ui.editor.area" selectedElement="_ZdGSsFzLEeiUeYvtzg8o5Q" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_ZdGSsFzLEeiUeYvtzg8o5Q" elementId="org.eclipse.e4.primaryDataStack">
+            <children xsi:type="advanced:Placeholder" xmi:id="_e3jwQFzLEeiUeYvtzg8o5Q" elementId="org.eclipse.ui.editorss"/>
+          </children>
+        </children>
+      </children>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_LwWt8FxfEeiFyJ7ZzlHW1A" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic_1:PartDescriptor" xmi:id="_QFW_UFxfEeiFyJ7ZzlHW1A" elementId="com.suzlon.assessment.turbines.ui.turbinesView" label="Turbines" contributionURI="bundleclass://com.suzlon.assessment.turbines.ui/com.suzlon.assessment.turbines.ui.TurbinesView"/>
+    <elements xsi:type="basic_1:PartDescriptor" xmi:id="_B8Am8FzLEeiUeYvtzg8o5Q" elementId="org.eclipse.ui.editorss" label="Turbine Details" contributionURI="bundleclass://com.suzlon.assessment.turbines.ui/com.suzlon.assessment.turbines.ui.TurbineDetails"/>
+  </fragments>
+</fragment:ModelFragments>
